@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Offshore Bank</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <div class="logo-container">
+    <img src="0x0.png" alt="Bank Logo" class="logo">
+  </div>
+
+  <main>
+    <h1>Account Statement Generator</h1>
+    <input type="text" id="account-number" placeholder="Account Number"><br>
+    <input type="password" id="password" placeholder="Password"><br><br>
+    <button onclick="generateStatement()">Download Statement</button>
+  </main>
+</body>
+</html>

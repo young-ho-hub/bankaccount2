@@ -1,0 +1,42 @@
+body {
+  background: #f3f3f3;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 60px 20px 40px;
+}
+
+.logo-container {
+  margin-bottom: 40px;
+}
+
+.logo {
+  max-width: 200px;
+  height: auto;
+  margin-top: 20px;
+}
+
+main {
+  background: white;
+  padding: 30px;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.2);
+  display: inline-block;
+}
+
+input {
+  padding: 10px;
+  margin: 10px;
+  width: 80%;
+  max-width: 300px;
+  border: 1px solid #aaa;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  background: darkred;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
