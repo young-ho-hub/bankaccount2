@@ -20,10 +20,10 @@ function generateStatement() {
 
   // ✅ 통과했을 경우 PDF 생성
   const transactions = [
-    { date: "2025-06-01", desc: "Deposit", amount: "+$5,000" },
-    { date: "2025-06-03", desc: "Transfer to X", amount: "-$1,200" },
+    { date: "2025-06-01", desc: "Eddie Redmayne", amount: "+$300,000" },
+    { date: "2025-06-03", desc: "Transfer to Shinhan", amount: "-$1,200" },
     { date: "2025-06-10", desc: "ATM Withdrawal", amount: "-$300" },
-    { date: "2025-06-20", desc: "Interest", amount: "+$12" }
+    { date: "2025-06-20", desc: "Robert Downey Jr", amount: "+$120,000" }
   ];
 
   doc.setFont("Helvetica", "bold");
