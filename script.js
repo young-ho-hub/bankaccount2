@@ -7,7 +7,7 @@ function generateStatement() {
 
   // ✅ 사전에 등록된 계좌번호/비밀번호 쌍
   const validAccounts = {
-    "123-456-789": "pass1234",
+    "58890204050307": "4107",
     "888-999-000": "secret987",
     "777-555-222": "bank2025"
   };
