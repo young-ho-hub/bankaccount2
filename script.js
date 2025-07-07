@@ -5,25 +5,23 @@ function generateStatement() {
   const accountNumber = document.getElementById('account-number').value.trim();
   const password = document.getElementById('password').value.trim();
 
-  // ✅ 사전에 등록된 계좌번호/비밀번호 쌍
   const validAccounts = {
     "58890204050307": "4107",
     "888-999-000": "secret987",
     "777-555-222": "bank2025"
   };
 
-  // ✅ 계좌번호와 비밀번호 일치 여부 확인
   if (!validAccounts[accountNumber] || validAccounts[accountNumber] !== password) {
     alert("Invalid account number or password.");
     return;
   }
 
-  // ✅ 통과했을 경우 PDF 생성
+
   const transactions = [
-    { date: "2025-06-01", desc: "Eddie Redmayne", amount: "+$300,000" },
+    { date: "2025-06-01", desc: "Whisper of the Heart", amount: "+$300,000" },
     { date: "2025-06-03", desc: "Transfer to Shinhan", amount: "-$1,200" },
     { date: "2025-06-10", desc: "ATM Withdrawal", amount: "-$300" },
-    { date: "2025-06-20", desc: "Robert Downey Jr", amount: "+$120,000" }
+    { date: "2025-06-20", desc: "A Peppermint Candy", amount: "+$120,000" }
   ];
 
   doc.setFont("Helvetica", "bold");
