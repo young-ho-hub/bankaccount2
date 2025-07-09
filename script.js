@@ -18,7 +18,7 @@ function generateStatement() {
 
 
   const transactions = [
-    { date: "2025-05-1", desc: "a Peppermint candy", amount: "+$120,000" },
+    { date: "2025-05-01", desc: "a Peppermint candy", amount: "+$120,000" },
     { date: "2025-06-01", desc: "whisper of the Heart", amount: "+$300,000" },
     { date: "2025-06-03", desc: "transfer to shinhan", amount: "-$1,200" },
     { date: "2025-06-10", desc: "atm withdrawal", amount: "-$300" }
