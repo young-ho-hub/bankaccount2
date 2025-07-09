@@ -18,10 +18,11 @@ function generateStatement() {
 
 
   const transactions = [
-    { date: "2025-06-01", desc: "Whisper of the Heart", amount: "+$300,000" },
-    { date: "2025-06-03", desc: "Transfer to Shinhan", amount: "-$1,200" },
-    { date: "2025-06-10", desc: "ATM Withdrawal", amount: "-$300" },
-    { date: "2025-06-20", desc: "A Peppermint Candy", amount: "+$120,000" }
+    { date: "2025-05-1", desc: "a Peppermint candy", amount: "+$120,000" },
+    { date: "2025-06-01", desc: "whisper of the Heart", amount: "+$300,000" },
+    { date: "2025-06-03", desc: "transfer to shinhan", amount: "-$1,200" },
+    { date: "2025-06-10", desc: "atm withdrawal", amount: "-$300" }
+    
   ];
 
   doc.setFont("Helvetica", "bold");
